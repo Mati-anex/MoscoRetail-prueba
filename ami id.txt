@@ -1,0 +1,5 @@
+Linux:
+"ImageId": "ami-09c2fe16cbe12f091"
+
+Windows:
+"ImageId": "ami-0e75523fa00123753"

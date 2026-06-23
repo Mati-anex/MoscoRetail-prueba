@@ -1,0 +1,10 @@
+#!/bin/bash
+
+aws ec2 run-instances \
+--image-id ami-0ab5e8edee718de14 \
+--instance-type t3.micro \
+--key-name MoscoRetail-key \
+--security-group-ids sg-0b6d7c4f9911f509a \
+--subnet-id subnet-04415ace1a0d33ad0 \
+--associate-public-ip-address \
+--tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=WindowsServer}]'
